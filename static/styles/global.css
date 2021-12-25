@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Raleway";
+    src: url("/static/fonts/Raleway-VariableFont_wght.ttf");
+}
+
+.bg-gradient-gold{
+    background: linear-gradient(124.34deg, #F4CE77 21.12%, #C2A153 98.3%);
+}
