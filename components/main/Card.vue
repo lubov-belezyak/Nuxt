@@ -14,7 +14,7 @@
 
 <script>
 export default {
-  name: "Cart.vue",
+  name: "Card.vue",
   props: {
     src: {
       type: String

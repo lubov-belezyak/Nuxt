@@ -40,17 +40,17 @@
 
     <div class="container flex flex-wrap -mt-28">
       <div class="grid grid-cols-3 gap-2 justify-content-center">
-        <Cart
+        <Card
             src="/ico/gold.svg"
             title="Объединение золота и криптовалюты"
             text="Приемущество надежности драгоценного металла и актуальность цифровой валюты"
         />
-        <Cart
+        <Card
             src="/ico/planet.svg"
             title="Децентрализованная система"
             text="Отсутствие точки управления,  контроля и отслеживания передвижения средств"
         />
-        <Cart
+        <Card
             src="/ico/graphics.svg"
             title="Минимальные риски на падение курса"
             text="Увеличение притока инвестиций и подкрепленность курсом золота"
@@ -58,37 +58,63 @@
       </div>
     </div>
 
-<div class="container">
-    <div class="grid grid-cols-2 content-around">
-      <div class="flex items-center">
-      <div>
-        <h3 class="text-gray-500 text-2xl">Short headline</h3>
-        <h1 class="leading-tight text-5xl text-white font-bold">О программе <br><span
-            class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-l from-gold-1 to-gold-2 font-bold">Energy Mining Gold</span>
-        </h1>
-        <p class="text-gray-500">EMG — это новый токен вобравший в себя все приемущества золота и блокчейн технологий. Наша Компания предлагает выгодный процент под вклады в свой токен EMG, подкрепляя стоимость своей монеты курсом золота на мировом рынке.
-          <br><br>EMG, является персональным ключом инвестирования в оцифрованное золото. С инновационными алгоритмами основанных на смарт-контрактах для вашего Staking и индивидуальной партнерской программой.</p>
-      </div>
-      </div>
-      <div class="flex justify-end">
-      <img src="/images/video.png">
+    <div class="container">
+      <div class="grid grid-cols-2 content-around">
+        <div class="flex items-center">
+          <div>
+            <h3 class="text-gray-500 text-2xl">Short headline</h3>
+            <h1 class="leading-tight text-5xl text-white font-bold">О программе <br><span
+                class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-l from-gold-1 to-gold-2 font-bold">Energy Mining Gold</span>
+            </h1>
+            <p class="text-gray-500">EMG — это новый токен вобравший в себя все приемущества золота и блокчейн
+              технологий. Наша Компания предлагает выгодный процент под вклады в свой токен EMG, подкрепляя стоимость
+              своей монеты курсом золота на мировом рынке.
+              <br><br>EMG, является персональным ключом инвестирования в оцифрованное золото. С инновационными
+              алгоритмами основанных на смарт-контрактах для вашего Staking и индивидуальной партнерской программой.</p>
+          </div>
+        </div>
+        <div class="flex justify-end">
+          <img src="/images/video.png">
+        </div>
       </div>
     </div>
-</div>
 
+    <div class="container">
+      <div class="text-center">
+        <h1 class="leading-tight text-5xl text-white font-bold mt-52">Возможности <span
+            class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-l from-gold-1 to-gold-2 font-bold">пассивного заработка</span>
+        </h1>
+        <p class="text-white mt-3 text-xl font-light text-gray-500">Realm of the galaxies across the centuries the
+          carbon in
+          our apple pies vanquish the impossible another world venture.</p>
+      </div>
 
-
-
+      <div class="grid grid-cols-2 gap-2">
+        <div class="flex justify-content-center">
+          <Card2
+              src="/ico/money.svg"
+              title="Staking"
+              text="Благодаря инновационным алгоритмам PoS основанных на смар-ктонтрактах, которые внедрены в наш токен EMG, любой пользователь получает вознаграждение за простое хранение наших монет на своем кошельке. Чем больше монет хранится на вашем кошельке, тем больше прибыль от стекинга."/>
+        </div>
+        <div class="flex justify-content-center">
+          <Card2
+              src="/ico/network.svg"
+              title="Invitation"
+              text="Это дополнительный пассивный заработок, который растет благодаря собранной вами команде и обеспечивает перспективы зарабатывать хорошие дивиденды в виде EMG+. Прибыль зависит от количества монет, купленных вашими инфайтерами."/>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import Navbar from "../Navbar";
-import Cart from "./Cart";
+import Card from "./Card";
+import Card2 from "./Card2";
 
 export default {
   name: "Block1",
-  components: {Navbar, Cart},
+  components: {Navbar, Card, Card2},
   dirs: [
     '~/components',
     '~/components/main'
