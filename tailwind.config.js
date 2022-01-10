@@ -10,7 +10,9 @@ module.exports = {
                 transparent: 'transparent',
                 current: 'currentColor',
                 'gold-1': '#f4ce77',
-                'gold-2': '#c2a153'
+                'gold-2': '#c2a153',
+                'back-grey': '#2D2D2F',
+                'back-card': '#343437'
             }
         },
         container: {
