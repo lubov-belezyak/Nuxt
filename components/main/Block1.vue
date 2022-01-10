@@ -1,5 +1,5 @@
-<template>
-  <div class="bg-back-grey">
+<template xmlns="http://www.w3.org/1999/html">
+  <div class="bg-back-gray">
     <div class="bg-main-image bg-cover bg-no-repeat bg-center">
       <div class="pt-5">
         <Navbar/>
@@ -57,6 +57,28 @@
         />
       </div>
     </div>
+
+<div class="container">
+    <div class="grid grid-cols-2 content-around">
+      <div class="flex items-center">
+      <div>
+        <h3 class="text-gray-500 text-2xl">Short headline</h3>
+        <h1 class="leading-tight text-5xl text-white font-bold">О программе <br><span
+            class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-l from-gold-1 to-gold-2 font-bold">Energy Mining Gold</span>
+        </h1>
+        <p class="text-gray-500">EMG — это новый токен вобравший в себя все приемущества золота и блокчейн технологий. Наша Компания предлагает выгодный процент под вклады в свой токен EMG, подкрепляя стоимость своей монеты курсом золота на мировом рынке.
+          <br><br>EMG, является персональным ключом инвестирования в оцифрованное золото. С инновационными алгоритмами основанных на смарт-контрактах для вашего Staking и индивидуальной партнерской программой.</p>
+      </div>
+      </div>
+      <div class="flex justify-end">
+      <img src="/images/video.png">
+      </div>
+    </div>
+</div>
+
+
+
+
   </div>
 </template>
 
