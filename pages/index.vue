@@ -1,10 +1,3 @@
-<script>
-import Navbar
-import Block1 from "../components/main/Block1";
-export default {
-  components: {Block1, Navbar}
-}
-</script>
 <template>
 <!--  <Tutorial/>-->
   <Block1/>

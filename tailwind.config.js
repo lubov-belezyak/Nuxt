@@ -19,6 +19,9 @@ module.exports = {
         container: {
             center: true
         },
+        listStyleType: {
+            dash: 'dash'
+        }
     },
     variants: {
         extend: {},
