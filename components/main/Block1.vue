@@ -170,7 +170,49 @@
       </div>
     </div>
 
+    <div class="container items-center">
+      <div class="text-center">
+        <h1 class="leading-tight text-5xl text-white font-bold mt-52">Дорожная карта</h1>
+        <p class="text-white mt-3 text-xl font-light text-gray-500">Команда EMG не скрывает своих планов, а, наоборот,
+          дает возможность ознакомиться с ними каждому желающему и, конечно же, получить ответы на вопросы.</p>
+      </div>
 
+      <div class="flex justify-center mt-4">
+        <img src="/images/timeline.png">
+      </div>
+    </div>
+
+    <div class="flex bg-back-block-3 py-28">
+      <div class="container">
+        <div class="text-center">
+          <h1 class="leading-tight text-5xl text-white font-bold">Документы</h1>
+          <p class="text-white mt-3 text-xl font-light text-gray-500">Команда EMG не скрывает своих планов, а, наоборот,
+            дает возможность ознакомиться с ними каждому желающему и, конечно же, получить ответы на вопросы.</p>
+        </div>
+        <div class="grid grid-cols-3 gap-24 mt-8">
+          <div class="justify-center items-center bg-back-card shadow-lg rounded-lg">
+            <img src="/images/Dark%20Sharp.png" alt="img" title="img" class="w-full h-auto object-cover rounded-t-lg" id="whoobe-ixxe5">
+            <div class="w-full p-4 justify-start flex flex-col">
+              <h4 class="text-xl text-center text-white">Primary mining licence</h4>
+            </div>
+          </div>
+          <div class="justify-center items-center bg-back-card shadow-lg rounded-lg">
+            <img src="/images/Dark%20Sharp2.png" alt="img" title="img" class="w-full h-auto object-cover rounded-t-lg" id="whoobe-ixxe5">
+            <div class="w-full p-4 justify-start flex flex-col">
+              <h4 class="text-xl text-center text-white">Primary mining licence</h4>
+            </div>
+          </div>
+          <div class="justify-center items-center bg-back-card shadow-lg rounded-lg">
+            <img src="/images/Darc%20Sharp3.png" alt="img" title="img" class="w-full h-auto object-cover rounded-t-lg" id="whoobe-ixxe5">
+            <div class="w-full p-4 justify-start flex flex-col">
+              <h4 class="text-xl text-center text-white">Primary mining licence</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <Footer/>
   </div>
 </template>
 
@@ -181,10 +223,11 @@ import Card2 from "./Card2";
 import Card3 from "./Card3";
 import Chart from "./Chart";
 import Card4 from "./Card4";
+import Footer from "../Footer";
 
 export default {
   name: "Block1",
-  components: {Navbar, Card, Card2, Card3, Chart, Card4},
+  components: {Navbar, Card, Card2, Card3, Chart, Card4, Footer},
   dirs: [
     '~/components',
     '~/components/main'

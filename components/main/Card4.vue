@@ -11,9 +11,6 @@
 export default {
   name: "Card4.vue",
   props: {
-    src: {
-      type: String
-    },
     title: {
       type: String
     },
