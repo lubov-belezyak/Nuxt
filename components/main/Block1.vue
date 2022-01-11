@@ -81,7 +81,7 @@
 
     <div class="container">
       <div class="text-center">
-        <h1 class="leading-tight text-5xl text-white font-bold mt-52">Возможности <span
+        <h1 class="leading-tight text-5xl text-white font-bold">Возможности <span
             class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-l from-gold-1 to-gold-2 font-bold">пассивного заработка</span>
         </h1>
         <p class="text-white mt-3 text-xl font-light text-gray-500">Realm of the galaxies across the centuries the
@@ -104,6 +104,53 @@
         </div>
       </div>
     </div>
+
+    <div class="flex bg-back-block-3 py-28">
+      <div class="container">
+        <div class="grid grid-cols-2 gap-2 items-center">
+          <div class="content-center">
+            <h1 class="leading-tight text-5xl text-white font-bold">График о монете</h1>
+            <p class="text-white mt-3 text-xl font-light text-gray-500">Команда EMG не скрывает своих планов, а,
+              наоборот, дает возможность ознакомиться с ними каждому желающему и, конечно же, получить ответы на
+              вопросы.</p>
+            <div class="grid grid-cols-2 grid-rows-2 gap-8">
+              <Card3
+                  src="/ico/increasing.svg"
+                  title="0.1$"
+                  text="Курс"/>
+              <Card3
+                  src="/ico/line-chart.svg"
+                  title="300 тыс. монет"
+                  text="Рыночная капитализация"/>
+              <Card3
+                  src="/ico/presentation.svg"
+                  title="300 тыс. монет"
+                  text="Полная эмиссия "/>
+              <Card3
+                  src="/ico/bars.svg"
+                  title="300000"
+                  text="Начальная эмиссия"/>
+            </div>
+          </div>
+          <div class="content-center ml-16">
+            <img src="/images/chart.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-2 items-center">
+      <div class="pl-48 pr-16">
+        <h1 class="leading-tight text-5xl text-white font-bold">Наша платформа<br> для инвестирования </h1>
+        <p class="text-white mt-3 text-xl font-light text-gray-500">Для того, чтобы стать успешным инвестором, не
+          нужно изучать тонну материала. Команда EMG облегчила вам работу и разработала платформу, на которой можно с
+          легкостью управлять своими инвестициями, где четко расписан момент начисления процентов, где каждый из вас
+          уже стал инвестором. </p>
+      </div>
+      <div class="mr-0">
+        <img src="/images/devices.png">
+      </div>
+    </div>
   </div>
 </template>
 
@@ -111,10 +158,12 @@
 import Navbar from "../Navbar";
 import Card from "./Card";
 import Card2 from "./Card2";
+import Card3 from "./Card3";
+import Chart from "./Chart";
 
 export default {
   name: "Block1",
-  components: {Navbar, Card, Card2},
+  components: {Navbar, Card, Card2, Card3, Chart},
   dirs: [
     '~/components',
     '~/components/main'
