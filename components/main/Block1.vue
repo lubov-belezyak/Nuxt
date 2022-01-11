@@ -151,6 +151,26 @@
         <img src="/images/devices.png">
       </div>
     </div>
+
+    <div class="container">
+      <div class="text-center">
+        <h1 class="leading-tight text-5xl text-white font-bold mt-52">Как работает <span
+            class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-l from-gold-1 to-gold-2 font-bold">система EMG</span>
+        </h1>
+        <p class="text-white mt-3 text-xl font-light text-gray-500">Программа инвестиций Energy Mining Gold даёт вам
+          возможность стать обладателем цифрового золота, которое, в свою очередь, зависит от курса на мировом рынке</p>
+      </div>
+      <div class="grid grid-cols-2 gap-16 mx-16">
+        <Card4
+            title="Проблема"
+            text="Ранее желающие инвестировать свои накопления в акции и драгоценные бумаги сталкивались с ощутимыми трудностями: определиться с брокерским агентством или банком, выбрать предмет инвестиций, заплатить внушительную комиссию"/>
+        <Card4
+            title="Решение"
+            text="Ранее желающие инвестировать свои накопления в акции и драгоценные бумаги сталкивались с ощутимыми трудностями: определиться с брокерским агентством или банком, выбрать предмет инвестиций, заплатить внушительную комиссию"/>
+      </div>
+    </div>
+
+
   </div>
 </template>
 
@@ -160,10 +180,11 @@ import Card from "./Card";
 import Card2 from "./Card2";
 import Card3 from "./Card3";
 import Chart from "./Chart";
+import Card4 from "./Card4";
 
 export default {
   name: "Block1",
-  components: {Navbar, Card, Card2, Card3, Chart},
+  components: {Navbar, Card, Card2, Card3, Chart, Card4},
   dirs: [
     '~/components',
     '~/components/main'
