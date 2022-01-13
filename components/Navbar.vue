@@ -66,7 +66,7 @@
                         </label>
                       </div>
 
-                      <a href="#"
+                      <a href="/wallet"
                          class="inline-flex justify-center w-full hover:bg-gray-200 text-black text-center py-4 px-4 rounded bg-gold-1 text-white text-xl hover:bg-gold-2 my-2 shadow-gold-1">
                         Купить
                       </a>
@@ -96,7 +96,4 @@ export default {
 }
 </script>
 <style>
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 </style>
