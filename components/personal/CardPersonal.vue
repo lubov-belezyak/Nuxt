@@ -12,7 +12,7 @@
       <div class="flex items-center">
         <p class='text-2xl font-bold'> {{value}} </p>
       </div>
-      <div class='flex justify-between items-center mb-4'>
+      <div class='flex justify-between items-center mb-4' :class="visible">
         {{usd}}
       </div>
       <div class='flex justify-between'>
@@ -55,9 +55,12 @@ export default {
       type: String
     },
     button: {
-      type: Boolean
+      type: String
     },
     btClass: {
+      type: String
+    },
+    visible: {
       type: String
     }
   }
