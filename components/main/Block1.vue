@@ -191,19 +191,19 @@
         </div>
         <div class="grid grid-cols-3 gap-24 mt-8">
           <div class="justify-center items-center bg-back-card shadow-lg rounded-lg">
-            <img src="/images/Dark%20Sharp.png" alt="img" title="img" class="w-full h-auto object-cover rounded-t-lg" id="whoobe-ixxe5">
+            <img src="/images/Dark%20Sharp.png" alt="img" title="img" class="w-full h-auto object-cover rounded-t-lg">
             <div class="w-full p-4 justify-start flex flex-col">
               <h4 class="text-xl text-center text-white">Primary mining licence</h4>
             </div>
           </div>
           <div class="justify-center items-center bg-back-card shadow-lg rounded-lg">
-            <img src="/images/Dark%20Sharp2.png" alt="img" title="img" class="w-full h-auto object-cover rounded-t-lg" id="whoobe-ixxe5">
+            <img src="/images/Dark%20Sharp2.png" alt="img" title="img" class="w-full h-auto object-cover rounded-t-lg">
             <div class="w-full p-4 justify-start flex flex-col">
               <h4 class="text-xl text-center text-white">Primary mining licence</h4>
             </div>
           </div>
           <div class="justify-center items-center bg-back-card shadow-lg rounded-lg">
-            <img src="/images/Darc%20Sharp3.png" alt="img" title="img" class="w-full h-auto object-cover rounded-t-lg" id="whoobe-ixxe5">
+            <img src="/images/Darc%20Sharp3.png" alt="img" title="img" class="w-full h-auto object-cover rounded-t-lg">
             <div class="w-full p-4 justify-start flex flex-col">
               <h4 class="text-xl text-center text-white">Primary mining licence</h4>
             </div>

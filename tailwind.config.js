@@ -4,7 +4,10 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: {
-                'main-image': "url('/images/main.png')"
+                'main-image': "url('/images/main.png')",
+                'card-gold': "url('/images/card-personal-gold.png')",
+                'card-gray': "url('/images/card-personal-gray.png')",
+                'card-green': "url('/images/card-personal-green.png')"
             },
             colors:{
                 transparent: 'transparent',

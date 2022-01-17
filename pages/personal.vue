@@ -81,7 +81,7 @@
         </div>
       </div>
 
-      <div class="col-span-8">
+      <div class="col-span-8 ml-8">
         <component :is="component"/>
       </div>
 
