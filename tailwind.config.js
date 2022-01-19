@@ -7,7 +7,8 @@ module.exports = {
                 'main-image': "url('/images/main.png')",
                 'card-gold': "url('/images/card-personal-gold.png')",
                 'card-gray': "url('/images/card-personal-gray.png')",
-                'card-green': "url('/images/card-personal-green.png')"
+                'card-green': "url('/images/card-personal-green.png')",
+                'card-dark' : "url('/images/card-dark.png')"
             },
             colors:{
                 transparent: 'transparent',
@@ -16,7 +17,9 @@ module.exports = {
                 'gold-2': '#c2a153',
                 'back-gray': '#212123',
                 'back-card': '#343437',
-                'back-block-3':'#27272B'
+                'back-block-3':'#27272B',
+                'green-1': '#9ED27E',
+                'green-2': '#639D41'
             }
         },
         container: {
