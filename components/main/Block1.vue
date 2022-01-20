@@ -14,7 +14,7 @@
             our <br>apple pies vanquish the
             impossible another world venture.</p>
           <a href="#"
-             class="border border-transparent text-center font-medium text-zinc-800 bg-gradient-gold px-5 py-3 rounded-xl font-bold">
+             class="hover:bg-gradient-to-r hover:from-zinc-800 hover:to-zinc-700 hover:text-gold-2 text-center font-medium text-zinc-800 bg-gradient-to-r from-gold-1 to-gold-2 px-5 py-3 rounded-xl font-bold">
             Открыть кошелёк
           </a>
         </div>
@@ -199,19 +199,19 @@
         </div>
         <div class="grid grid-cols-3 gap-16 mt-8">
           <div class="justify-center items-center bg-back-card shadow-lg rounded-lg">
-            <img src="/images/Dark%20Sharp.png" alt="img" title="img" class="w-full h-auto object-cover rounded-t-lg">
+            <img src="/images/Dark%20Sharp.png" alt="img" title="img" class="w-full h-auto object-cover rounded-t-lg hover:scale-125 transition duration-500">
             <div class="w-full p-4 justify-start flex flex-col">
               <h4 class="text-xl text-center text-zinc-500">Primary mining licence</h4>
             </div>
           </div>
           <div class="justify-center items-center bg-back-card shadow-lg rounded-lg">
-            <img src="/images/Dark%20Sharp2.png" alt="img" title="img" class="w-full h-auto object-cover rounded-t-lg">
+            <img src="/images/Dark%20Sharp2.png" alt="img" title="img" class="w-full h-auto object-cover rounded-t-lg hover:scale-125 transition duration-500">
             <div class="w-full p-4 justify-start flex flex-col">
               <h4 class="text-xl text-center text-zinc-500">Primary mining licence</h4>
             </div>
           </div>
           <div class="justify-center items-center bg-back-card shadow-lg rounded-lg">
-            <img src="/images/Darc%20Sharp3.png" alt="img" title="img" class="w-full h-auto object-cover rounded-t-lg">
+            <img src="/images/Darc%20Sharp3.png" alt="img" title="img" class="w-full h-auto object-cover rounded-t-lg hover:scale-125 transition duration-500">
             <div class="w-full p-4 justify-start flex flex-col">
               <h4 class="text-xl text-center text-zinc-500">Primary mining licence</h4>
             </div>

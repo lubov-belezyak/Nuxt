@@ -10,27 +10,27 @@
         </div>
         <div>
           <nuxt-link to="/white-paper"
-                     class="block mx-16 text-white bg-blue-700 rounded md:bg-transparent md:p-0 dark:text-white font-medium"
+                     class="block mx-16 text-white bg-blue-700 rounded md:bg-transparent md:p-0 dark:text-white font-medium hover:text-gold-2"
                      aria-current="page">White Paper
           </nuxt-link>
         </div>
         <div>
           <nuxt-link to=""
-                     class="block text-white bg-blue-700 rounded md:bg-transparent md:p-0 dark:text-white font-medium"
+                     class="block text-white bg-blue-700 rounded md:bg-transparent md:p-0 dark:text-white font-medium hover:text-gold-2"
                      aria-current="page">О нас
           </nuxt-link>
         </div>
         <div class="col-start-7 col-span-1">
           <div class="w-auto ml-auto mr-0 float-right">
             <button
-                class="flex justify-end border border-transparent text-base font-medium rounded-md text-white bg-back-card px-5 py-2"
+                class="flex justify-end border border-transparent text-base font-medium rounded-md text-white bg-back-card px-5 py-2 hover:bg-gold-2"
                 type="button" data-modal-toggle="default-modal">
               <img src="/ico/entrance.svg" class="pr-2"> Войти
             </button>
 
             <!-- Main modal -->
             <div id="default-modal" aria-hidden="true"
-                 class="hidden overflow-x-hidden overflow-y-auto fixed h-modal md:h-full top-4 left-0 right-0 md:inset-0 z-50 justify-center items-center">
+                 class="hidden fixed h-modal md:h-full top-4 left-0 right-0 md:inset-0 justify-center items-center">
               <div class="relative w-full max-w-xl px-4 h-full md:h-auto">
                 <!-- Modal content -->
                 <div class="bg-back-gray rounded-lg shadow relative">
@@ -46,18 +46,18 @@
                       </svg>
                     </button>
                   </div>
-                  <!-- Modal body -->
-                  <div class="space-y-6">
-                    <h3 class="text-center leading-tight text-3xl text-white font-bold mb-4">Войти</h3>
 
-                    <form class="shadow-md rounded px-16 pt-6 pb-8 mb-4">
+
+                  <!-- Modal body -->
+                  <div class="">
+                    <h3 class="text-center leading-tight text-3xl text-white font-bold mb-4">Войти</h3>
+                    <form class="shadow-md rounded pt-6 pb-8 mb-4 px-16">
                       <input
                           class="rounded border-0 w-full py-2 px-3 text-white bg-back-card my-4 focus:border focus:border-gold-1 focus:ring-gold-1"
                           type="email" placeholder="Email">
                       <input
                           class="rounded border-0 w-full py-2 px-3 text-white bg-back-card my-4 focus:border focus:border-gold-1 focus:ring-gold-1"
                           type="password" placeholder="Password">
-
                       <div class="my-4">
                         <label class="inline-flex items-center">
                           <input class="text-gold-1 w-6 h-6 mr-2 focus:ring-gold-1 border border-gray-300 rounded-full"
