@@ -18,7 +18,7 @@
       <div class='flex justify-between'>
         <div>
           <button
-              class="flex items-center justify-end border border-transparent rounded-md text-white bg-back-card px-1 py-1"
+              class="flex items-center justify-end border border-transparent rounded-md text-white bg-back-card px-1 py-1 hover:bg-zinc-800"
               type="button" data-modal-toggle="default-modal">
             <img src="/ico/wallet.svg" class="pr-2" alt=""> {{ buttonText }}
           </button>

@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-back-gray min-h-screen">
+  <div class="bg-back-gray min-h-screen h-full">
     <div class="grid grid-cols-12">
       <div class="col-span-2">
-        <div class="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased bg-gray-50 text-gray-800 w-full">
-          <div class="flex flex-col top-0 left-0 bg-back-card min-h-screen shadow-lg justify-center w-auto">
+        <div class="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased bg-gray-50 text-gray-800 w-full h-full">
+          <div class="flex flex-col top-0 left-0 bg-back-card min-h-screen shadow-lg justify-center w-auto h-full">
             <div class="flex items-center pl-6 h-20 justify-center mt-4">
               <nuxt-link to="/" class="flex">
                 <img src="/ico/logo-gold.svg" class="h-12" alt="">

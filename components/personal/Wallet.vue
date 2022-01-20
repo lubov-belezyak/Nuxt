@@ -2,10 +2,10 @@
   <div>
     <div class="text-white ml-8">
       <h3 class="leading-tight text-3xl text-white my-4">Кошелек</h3>
-      <p class="text-white text-xl font-light text-gray-500">Здесь представлены ваши счета и истории транзакций</p>
+      <p class="text-white text-xl font-light text-zinc-500 mb-8">Здесь представлены ваши счета и истории транзакций</p>
     </div>
 
-    <div class="grid grid-cols-3 mt-4">
+    <div class="grid grid-cols-3 mt-4 ml-8">
       <CardPersonal
           class="bg-card-gold bg-auto bg-center bg-no-repeat"
           type="EMG "
@@ -37,7 +37,7 @@
       />
     </div>
 
-    <div class="ml-8 bg-back-card mt-16 rounded-xl text-white">
+    <div class="ml-8 bg-back-card mt-16 mb-16 rounded-xl text-white">
       <div class="flex items-center justify-between flex-wrap px-6 py-4">
         <h3 class="leading-tight text-xl text-white">История транзакций</h3>
         <div class="inline-block">
