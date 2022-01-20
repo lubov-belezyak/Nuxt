@@ -4,7 +4,8 @@
       <h3 class="leading-tight text-3xl text-white my-4">Настройки</h3>
       <p class="text-white text-xl font-light text-gray-500">Вы можете изменить свои основные данные</p>
 
-      <div class="ml-8 bg-gradient-to-l from-gold-2 to-gold-1 mt-16 rounded-xl text-white pl-4 py-4 flex justify-between items-center">
+      <div
+          class="ml-8 bg-gradient-to-l from-gold-2 to-gold-1 mt-16 rounded-xl text-white pl-4 py-4 flex justify-between items-center">
         <div>
           <svg class="inline-block" fill="none" height="27" viewBox="0 0 27 27" width="27"
                xmlns="http://www.w3.org/2000/svg">
@@ -29,11 +30,12 @@
       </div>
 
 
-
       <div class="ml-8 bg-back-card mt-16 rounded-xl text-white pl-4 py-4 flex justify-between items-center">
         <div class="w-full mx-auto mt-4 text-white rounded">
           <ul id="tabs" class="inline-flex w-full px-1 pt-2">
-            <li class="px-4 py-2 -mb-px font-semibold border-b-2 border-gold-2 rounded-t opacity-50"><a id="default-tab" href="#first">Основные</a></li>
+            <li class="px-4 py-2 -mb-px font-semibold border-b-2 border-gold-2 rounded-t opacity-50"><a id="default-tab"
+                                                                                                        href="#first">Основные</a>
+            </li>
             <li class="px-4 py-2 font-semibold rounded-t opacity-50"><a href="#second">Партнерская программа</a></li>
           </ul>
 
@@ -42,57 +44,65 @@
               <div class="flex pr-32 space-x-8 mt-4">
                 <div class="w-full w-1/3 flex flex-col">
                   <label class="font-light text-gray-300">Имя</label>
-                  <input type="text" class="leading-none text-white focus:outline-none focus:border-gold-2 focus:ring-gold-2 bg-zinc-600 border-zinc-600 rounded" />
+                  <input type="text"
+                         class="leading-none text-white focus:outline-none focus:border-gold-2 focus:ring-gold-2 bg-zinc-600 border-zinc-600 rounded"/>
                 </div>
                 <div class="w-full w-1/3 flex flex-col">
                   <label class="font-light text-gray-300">Фамилия</label>
-                  <input type="text" class="leading-none text-white focus:outline-none focus:border-gold-2 focus:ring-gold-2 bg-zinc-600 border-zinc-600 border rounded" />
+                  <input type="text"
+                         class="leading-none text-white focus:outline-none focus:border-gold-2 focus:ring-gold-2 bg-zinc-600 border-zinc-600 border rounded"/>
                 </div>
                 <div class="w-full w-1/3 flex flex-col">
                   <label class="font-light text-gray-300">Отчество</label>
-                  <input type="text" class="leading-none text-white focus:outline-none focus:border-gold-2 focus:ring-gold-2 bg-zinc-600 border-zinc-600 border rounded" />
+                  <input type="text"
+                         class="leading-none text-white focus:outline-none focus:border-gold-2 focus:ring-gold-2 bg-zinc-600 border-zinc-600 border rounded"/>
                 </div>
               </div>
               <div class="flex pr-32 flex-col">
                 <div class="w-full w-1/3 flex flex-col mt-8 pr-5">
-                  <label class="font-light text-gray-300">Имя</label>
-                  <input type="text" class="leading-none text-white focus:outline-none focus:border-gold-2 focus:ring-gold-2 bg-zinc-600 border-zinc-600 border rounded" />
+                  <label class="font-light text-gray-300">Email</label>
+                  <input type="text"
+                         class="leading-none text-white focus:outline-none focus:border-gold-2 focus:ring-gold-2 bg-zinc-600 border-zinc-600 border rounded"/>
                 </div>
                 <div class="w-full w-1/3 flex flex-col mt-8 pr-5">
-                  <label class="font-light text-gray-300">Имя</label>
-                  <input type="text" class="leading-none text-white focus:outline-none focus:border-gold-2 focus:ring-gold-2 bg-zinc-600 border-zinc-600 border rounded" />
+                  <label class="font-light text-gray-300">Номер телефона</label>
+                  <input type="text"
+                         class="leading-none text-white focus:outline-none focus:border-gold-2 focus:ring-gold-2 bg-zinc-600 border-zinc-600 border rounded"/>
                 </div>
-                <div class="w-full w-1/3 flex flex-col mt-8 pr-5">
-                  <div class="flex flex-col justify-center relative overflow-hidden sm:py-12">
-                    <div class="w-full px-8 py-4 mx-auto bg-white text-gray-600 rounded-lg shadow-md dark:bg-gray-800">
-                      <ul class="w-full max-w-lg">
-                        <li aria-expanded="true" class="border-b border-gray-200 group" v-for="i in 5">
-                          <button class="flex w-full justify-between py-2 px-2 bg-gray-100 hover:bg-gray-200">
-                            <span> item {{i}}</span>
-                            <span>
-            <svg class="h-6 fill-current text-gray-500 transform -rotate-90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-hidden="true"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"></path></svg>
-          </span>
-                          </button>
-                          <div class="px-2 bg-gray-50  h-0 overflow-hidden group-hover:h-full transition-height">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque rem quod hic, magnam quis vero nobis cumque esse cum fugit maxime blanditiis quae maiores sint nisi? Vitae dolorem tempora nobis?</div>
-                        </li>
-
-                      </ul>
+                <div x-data={show:false} class="w-full">
+                  <a x-on:click.prevent="show=!show"
+                     class="mt-8 cursor-pointer font-light text-gray-300 focus:outline-none inline-flex items-center">
+                    <span class="mr-1">Изменить пароль</span>
+                    <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+                    </svg>
+                  </a>
+                  <div x-show="show" class="my-2 text-gray-300">
+                    <div class="flex space-x-8 mt-4">
+                      <div class="w-full w-1/3 flex flex-col">
+                        <label class="font-light text-gray-300">Старый пароль</label>
+                        <input type="text"
+                               class="leading-none text-white focus:outline-none focus:border-gold-2 focus:ring-gold-2 bg-zinc-600 border-zinc-600 rounded"/>
+                      </div>
+                      <div class="w-full w-1/3 flex flex-col">
+                        <label class="font-light text-gray-300">Новый пароль</label>
+                        <input type="text"
+                               class="leading-none text-white focus:outline-none focus:border-gold-2 focus:ring-gold-2 bg-zinc-600 border-zinc-600 border rounded"/>
+                      </div>
+                      <div class="w-full w-1/3 flex flex-col">
+                        <label class="font-light text-gray-300">Подтвердите новый пароль</label>
+                        <input type="text"
+                               class="leading-none text-white focus:outline-none focus:border-gold-2 focus:ring-gold-2 bg-zinc-600 border-zinc-600 border rounded"/>
+                      </div>
                     </div>
                   </div>
-
-
-<!--                  <div x-data={show:false} class="w-full">-->
-<!--                    <p class="flex">-->
-<!--                      <a x-on:click.prevent="show=!show" class="bg-blue-600 text-gray-200 rounded hover:bg-blue-500 px-4 py-3 cursor-pointer focus:outline-none mr-2">-->
-<!--                        Link with href-->
-<!--                      </a>-->
-<!--                    </p>-->
-<!--                    <div x-show="show" class="border px-4 py-3 my-2 text-gray-700">-->
-
-<!--                    </div>-->
-<!--                  </div>-->
                 </div>
-
+              </div>
+              <div class="flex pr-32">
+                <a href="#"
+                   class="border rounded-xl border-transparent text-center font-medium text-zinc-800 bg-gradient-gold px-5 py-2 mt-4">
+                  Сохранить
+                </a>
               </div>
 
             </div>
@@ -107,8 +117,8 @@
           let tabTogglers = tabsContainer.querySelectorAll("a");
           console.log(tabTogglers);
 
-          tabTogglers.forEach(function(toggler) {
-            toggler.addEventListener("click", function(e) {
+          tabTogglers.forEach(function (toggler) {
+            toggler.addEventListener("click", function (e) {
               e.preventDefault();
 
               let tabName = this.getAttribute("href");
@@ -117,7 +127,8 @@
 
               for (let i = 0; i < tabContents.children.length; i++) {
 
-                tabTogglers[i].parentElement.classList.remove("border-gold-2", "border-b-2", "opacity-100");  tabContents.children[i].classList.remove("hidden");
+                tabTogglers[i].parentElement.classList.remove("border-gold-2", "border-b-2", "opacity-100");
+                tabContents.children[i].classList.remove("hidden");
                 if ("#" + tabContents.children[i].id === tabName) {
                   continue;
                 }
