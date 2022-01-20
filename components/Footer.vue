@@ -12,12 +12,12 @@
           <ul class="flex flex-row space-x-8 mt-0  font-medium">
             <li class="ml-20">
               <a href="#"
-                 class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:p-0 dark:text-white"
+                 class="block py-2 pr-4 pl-3 font-light text-white bg-blue-700 rounded md:bg-transparent md:p-0 dark:text-white"
                  aria-current="page">White Paper</a>
             </li>
             <li>
               <a href="#"
-                 class="block py-2 pr-4 pl-3 text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">О
+                 class="block py-2 pr-4 pl-3 font-light text-white border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">О
                 нас</a>
             </li>
           </ul>

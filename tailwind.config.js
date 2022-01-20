@@ -16,7 +16,7 @@ module.exports = {
                 'gold-1': '#f4ce77',
                 'gold-2': '#c2a153',
                 'back-gray': '#212123',
-                'back-card': '#343437',
+                'back-card': '#2D2D2F',
                 'back-block-3':'#27272B',
                 'green-1': '#9ED27E',
                 'green-2': '#639D41'

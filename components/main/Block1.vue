@@ -8,16 +8,17 @@
       <div class="container flex flex-wrap">
         <div class="flex-1">
           <h1 class="leading-tight text-5xl text-white font-bold mt-52">Приветствуем вас на платформе <br><span
-              class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-l from-gold-1 to-gold-2 font-bold">Energy Mining Gold</span>
+              class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-l from-gold-1 to-gold-2 font-black">Energy Mining Gold</span>
           </h1>
           <p class="text-white mt-10 mb-10 text-2xl font-light">Realm of the galaxies across the centuries the carbon in
             our <br>apple pies vanquish the
             impossible another world venture.</p>
           <a href="#"
-             class="border border-transparent text-center font-medium text-white bg-gradient-gold px-5 py-2">
+             class="border border-transparent text-center font-medium text-zinc-800 bg-gradient-gold px-5 py-3 rounded-xl font-bold">
             Открыть кошелёк
           </a>
         </div>
+        <!-- Social networks -->
         <div class="flex-none mt-36">
           <a href="#" class="flex justify-end">
             <img src="/ico/facebook.svg" class="pt-2-2">
@@ -38,8 +39,9 @@
       </div>
     </div>
 
+    <!-- Cards -->
     <div class="container flex flex-wrap -mt-28">
-      <div class="grid grid-cols-3 gap-2 justify-content-center">
+      <div class="grid grid-cols-3 gap-16 justify-content-center">
         <Card
             src="/ico/gold.svg"
             title="Объединение золота и криптовалюты"
@@ -58,15 +60,16 @@
       </div>
     </div>
 
-    <div class="container">
+    <!-- Video -->
+    <div class="container mt-28">
       <div class="grid grid-cols-2 content-around">
         <div class="flex items-center">
           <div>
-            <h3 class="text-gray-500 text-2xl">Short headline</h3>
-            <h1 class="leading-tight text-5xl text-white font-bold">О программе <br><span
-                class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-l from-gold-1 to-gold-2 font-bold">Energy Mining Gold</span>
+            <h3 class="text-zinc-500 text-2xl">Short headline</h3>
+            <h1 class="leading-tight text-5xl text-white font-semibold">О программе <br><span
+                class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-l from-gold-1 to-gold-2 font-semibold">Energy Mining Gold</span>
             </h1>
-            <p class="text-gray-500">EMG — это новый токен вобравший в себя все приемущества золота и блокчейн
+            <p class="text-zinc-500 mt-4 pr-16">EMG — это новый токен вобравший в себя все приемущества золота и блокчейн
               технологий. Наша Компания предлагает выгодный процент под вклады в свой токен EMG, подкрепляя стоимость
               своей монеты курсом золота на мировом рынке.
               <br><br>EMG, является персональным ключом инвестирования в оцифрованное золото. С инновационными
@@ -79,17 +82,16 @@
       </div>
     </div>
 
-    <div class="container">
+    <!-- Passive income -->
+    <div class="container mt-28">
       <div class="text-center">
-        <h1 class="leading-tight text-5xl text-white font-bold">Возможности <span
-            class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-l from-gold-1 to-gold-2 font-bold">пассивного заработка</span>
+        <h1 class="leading-tight text-5xl text-white font-semibold">Возможности <span
+            class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-l from-gold-1 to-gold-2 font-semibold">пассивного заработка</span>
         </h1>
-        <p class="text-white mt-3 text-xl font-light text-gray-500">Realm of the galaxies across the centuries the
-          carbon in
-          our apple pies vanquish the impossible another world venture.</p>
+        <p class="text-white mt-3 text-xl font-light text-zinc-500">Realm of the galaxies across the centuries the carbon in our apple pies vanquish the impossible another world venture. impossible another world venture.</p>
       </div>
 
-      <div class="grid grid-cols-2 gap-2">
+      <div class="grid grid-cols-2 gap-24">
         <div class="flex justify-content-center">
           <Card2
               src="/ico/money.svg"
@@ -105,18 +107,19 @@
       </div>
     </div>
 
-    <div class="flex bg-back-block-3 py-28">
+    <!-- Graphic -->
+    <div class="flex bg-back-block-3 py-28 mt-16">
       <div class="container">
-        <div class="grid grid-cols-2 gap-2 items-center">
+        <div class="grid grid-cols-2 gap-24 items-center">
           <div class="content-center">
-            <h1 class="leading-tight text-5xl text-white font-bold">График о монете</h1>
-            <p class="text-white mt-3 text-xl font-light text-gray-500">Команда EMG не скрывает своих планов, а,
+            <h1 class="leading-tight text-5xl text-white font-semibold">График о монете</h1>
+            <p class="text-white mt-3 text-xl font-light text-zinc-500 my-8">Команда EMG не скрывает своих планов, а,
               наоборот, дает возможность ознакомиться с ними каждому желающему и, конечно же, получить ответы на
               вопросы.</p>
             <div class="grid grid-cols-2 grid-rows-2 gap-8">
               <Card3
                   src="/ico/increasing.svg"
-                  title="0.1$"
+                  title="0.1 $"
                   text="Курс"/>
               <Card3
                   src="/ico/line-chart.svg"
@@ -139,10 +142,11 @@
       </div>
     </div>
 
-    <div class="grid grid-cols-2 items-center">
-      <div class="pl-48 pr-16">
-        <h1 class="leading-tight text-5xl text-white font-bold">Наша платформа<br> для инвестирования </h1>
-        <p class="text-white mt-3 text-xl font-light text-gray-500">Для того, чтобы стать успешным инвестором, не
+    <!-- Platform -->
+    <div class="grid grid-cols-2 items-center mt-28">
+      <div class="pl-48 pr-28">
+        <h1 class="leading-tight text-5xl text-white font-semibold">Наша платформа<br> для инвестирования </h1>
+        <p class="text-white mt-3 text-xl font-light text-zinc-500 mt-8">Для того, чтобы стать успешным инвестором, не
           нужно изучать тонну материала. Команда EMG облегчила вам работу и разработала платформу, на которой можно с
           легкостью управлять своими инвестициями, где четко расписан момент начисления процентов, где каждый из вас
           уже стал инвестором. </p>
@@ -152,12 +156,13 @@
       </div>
     </div>
 
-    <div class="container">
+    <!-- EMG -->
+    <div class="container mt-16">
       <div class="text-center">
-        <h1 class="leading-tight text-5xl text-white font-bold mt-52">Как работает <span
+        <h1 class="leading-tight text-5xl text-white font-semibold">Как работает <span
             class="text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-l from-gold-1 to-gold-2 font-bold">система EMG</span>
         </h1>
-        <p class="text-white mt-3 text-xl font-light text-gray-500">Программа инвестиций Energy Mining Gold даёт вам
+        <p class="text-white mt-3 text-xl font-light text-zinc-500 px-48">Программа инвестиций Energy Mining Gold даёт вам
           возможность стать обладателем цифрового золота, которое, в свою очередь, зависит от курса на мировом рынке</p>
       </div>
       <div class="grid grid-cols-2 gap-16 mx-16">
@@ -170,10 +175,11 @@
       </div>
     </div>
 
-    <div class="container items-center">
+    <!-- Road map -->
+    <div class="container items-center mt-16">
       <div class="text-center">
-        <h1 class="leading-tight text-5xl text-white font-bold mt-52">Дорожная карта</h1>
-        <p class="text-white mt-3 text-xl font-light text-gray-500">Команда EMG не скрывает своих планов, а, наоборот,
+        <h1 class="leading-tight text-5xl text-white font-semibold">Дорожная карта</h1>
+        <p class="text-white mt-3 text-xl font-light text-zinc-500 px-48">Команда EMG не скрывает своих планов, а, наоборот,
           дает возможность ознакомиться с ними каждому желающему и, конечно же, получить ответы на вопросы.</p>
       </div>
 
@@ -182,30 +188,32 @@
       </div>
     </div>
 
-    <div class="flex bg-back-block-3 py-28">
+
+    <!-- Documents -->
+    <div class="flex bg-back-block-3 py-24 mt-28">
       <div class="container">
         <div class="text-center">
-          <h1 class="leading-tight text-5xl text-white font-bold">Документы</h1>
-          <p class="text-white mt-3 text-xl font-light text-gray-500">Команда EMG не скрывает своих планов, а, наоборот,
+          <h1 class="leading-tight text-5xl text-white font-semibold">Документы</h1>
+          <p class="text-white mt-3 text-xl font-light text-zinc-500 px-64">Команда EMG не скрывает своих планов, а, наоборот,
             дает возможность ознакомиться с ними каждому желающему и, конечно же, получить ответы на вопросы.</p>
         </div>
-        <div class="grid grid-cols-3 gap-24 mt-8">
+        <div class="grid grid-cols-3 gap-16 mt-8">
           <div class="justify-center items-center bg-back-card shadow-lg rounded-lg">
             <img src="/images/Dark%20Sharp.png" alt="img" title="img" class="w-full h-auto object-cover rounded-t-lg">
             <div class="w-full p-4 justify-start flex flex-col">
-              <h4 class="text-xl text-center text-white">Primary mining licence</h4>
+              <h4 class="text-xl text-center text-zinc-500">Primary mining licence</h4>
             </div>
           </div>
           <div class="justify-center items-center bg-back-card shadow-lg rounded-lg">
             <img src="/images/Dark%20Sharp2.png" alt="img" title="img" class="w-full h-auto object-cover rounded-t-lg">
             <div class="w-full p-4 justify-start flex flex-col">
-              <h4 class="text-xl text-center text-white">Primary mining licence</h4>
+              <h4 class="text-xl text-center text-zinc-500">Primary mining licence</h4>
             </div>
           </div>
           <div class="justify-center items-center bg-back-card shadow-lg rounded-lg">
             <img src="/images/Darc%20Sharp3.png" alt="img" title="img" class="w-full h-auto object-cover rounded-t-lg">
             <div class="w-full p-4 justify-start flex flex-col">
-              <h4 class="text-xl text-center text-white">Primary mining licence</h4>
+              <h4 class="text-xl text-center text-zinc-500">Primary mining licence</h4>
             </div>
           </div>
         </div>

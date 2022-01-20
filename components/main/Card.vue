@@ -1,14 +1,12 @@
 <template>
-  <div class="bg-back-card">
+  <div class="bg-back-card rounded-xl">
     <div class="flex">
-      <img :src="src" class="rounded-lg mb-4">
-      <div class="flex flex-col w-fullh-screen ">
-        <div class="flex flex-row justify-between m-auto">
-          <p class="relative text-xl whitespace-nowrap truncate overflow-hidden text-white">{{ title }}</p>
-        </div>
+      <img :src="src" class="rounded-lg">
+      <div class="my-auto">
+        <p class="text-xl overflow-hidden text-white">{{ title }}</p>
       </div>
     </div>
-    <p class="-mt-4 text-gray-500 pl-4 pr-4">{{ text }}</p>
+    <p class="-mt-4 font-light text-zinc-400 px-4 pt-4 pb-8 ml-4">{{ text }}</p>
   </div>
 </template>
 
